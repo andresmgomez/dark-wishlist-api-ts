@@ -4,7 +4,7 @@
 	"description": "A small api that creates a new wishlist using typescript language",
 	"main": "index.js",
 	"scripts": {
-		"start": "tsc index.js"
+		"start": "nodemon src/index.ts"
 	},
 	"devDependencies": {
 		"@types/cors": "^2.8.12",
